@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Chargement image
 # ===============================
 
-img = cv2.imread("Objects.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("images/Objects.jpg", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Erreur image introuvable")

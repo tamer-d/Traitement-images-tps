@@ -2,12 +2,11 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 # ===============================
 # Chargement image bruitée
 # ===============================
 
-img = cv2.imread("noisy_lena.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("images/noisy_lena.jpg", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Erreur image introuvable")
@@ -130,12 +129,11 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 # ===============================
 # Chargement image bruitée
 # ===============================
 
-img = cv2.imread("noisy_lena.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("images/noisy_lena.jpg", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Erreur image introuvable")

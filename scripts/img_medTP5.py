@@ -2,12 +2,11 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 # ===============================
 # Chargement image
 # ===============================
 
-img = cv2.imread("Flower.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("images/Flower.jpg", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Erreur image introuvable")

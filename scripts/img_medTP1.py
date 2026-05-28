@@ -17,8 +17,8 @@ def calcul_histogramme(image_gray):
 
 
 # Charger images
-lena = cv2.imread("lena.jpg", cv2.IMREAD_GRAYSCALE)
-lung = cv2.imread("lung.jpg", cv2.IMREAD_GRAYSCALE)
+lena = cv2.imread("images/lena.jpg", cv2.IMREAD_GRAYSCALE)
+lung = cv2.imread("images/lung.jpg", cv2.IMREAD_GRAYSCALE)
 
 if lena is None or lung is None:
     print("Erreur : image non trouvée")
@@ -26,7 +26,7 @@ if lena is None or lung is None:
 
 # Redimensionner lung
 scale_lung = cv2.resize(lung, (lung.shape[1] // 2, lung.shape[0] // 2))
-cv2.imwrite("scale_lung.jpg", scale_lung)
+cv2.imwrite("images/scale_lung.jpg", scale_lung)
 
 # Calcul histogrammes
 hist_lena = calcul_histogramme(lena)

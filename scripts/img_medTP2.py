@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread("low_cont_xray.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("images/low_cont_xray.jpg", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Erreur : image non trouvée")
